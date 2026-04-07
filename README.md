@@ -48,10 +48,39 @@ sudo apt install ffmpeg  # if not already installed
 ## Current Status
 
 This project is in early development. Currently contains:
-- `lesson-3.py`: Development/testing chatbot for OpenAI API integration
-- Basic project structure and setup scripts
+- Project structure and automated setup scripts  
+- Core dependencies for video processing, transcription, and image analysis
+- Development environment with API integration capabilities
 
 The main lecture extraction functionality is planned for future implementation.
+
+## Version & Draft Roadmap
+
+### Version 0.1.0 (Current)
+- [x] ✅ Project setup and documentation
+- [x] ✅ Automated environment setup (`setup.sh`)  
+- [x] ✅ Core dependencies installed and verified:
+  - yt-dlp (video download)
+  - OpenAI Whisper (transcription)
+  - ImageHash + Pillow (image processing)
+  - Development tools (OpenAI API, python-dotenv)
+- [x] ✅ Environment tested and functional
+
+### Version 0.2.0 (Planned)
+- [ ] 📹 Basic video download functionality (HLS/m3u8 support)
+- [ ] 🎤 Audio extraction and Whisper transcription
+- [ ] 📄 Time-stamped transcript generation
+
+### Version 0.3.0 (Planned)
+- [ ] 🖼️  Frame extraction at regular intervals
+- [ ] 🔍 Slide deduplication using perceptual hashing
+- [ ] 📊 Basic slide-transcript alignment
+
+### Version 1.0.0 (Target)
+- [ ] 🚀 Complete pipeline integration
+- [ ] 📋 CLI interface for batch processing
+- [ ] 📖 Advanced output formatting
+- [ ] 🧪 Comprehensive testing suite
 
 ## License
 
