@@ -1,2 +1,9 @@
+# Core lecture extraction dependencies
+yt-dlp
+openai-whisper
+imagehash
+Pillow
+
+# Development/testing dependencies
 openai
 python-dotenv
